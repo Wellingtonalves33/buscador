@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Dev Compara</title>
+</head>
+<body>
+    <main class="container">
+        <h1>Dev Compara Preço</h1>
+        <form class="search-form">
+            <input placeholder="Digite o que deseja buscar" class="product-input"/>
+            <button type="submit">Buscar</button>
+        </form>
+        
+        <div class="product-list"></div>
+        <canvas class="price-chart"></canvas>
+        
+        <div id="large-header" class="large-header">
+            <canvas id="demo-canvas"></canvas>
+           
+        </div>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+   
+    <script src="script.js"></script>
+</body>
+</html>
